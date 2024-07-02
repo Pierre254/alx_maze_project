@@ -1,0 +1,77 @@
+THE MAZE PROJECT - MVP
+(A 3D Game Created Using SDL2)
+
+Minimum Viable Product (MVP) for the Maze Game with SDL2
+Explanation:
+
+Walls:
+
+Create a 2D array to represent the maze and draw walls using the SDL2 graphics library. The walls should be represented by rectangles or lines.
+Define a 2D array to store the maze data.
+Use SDL2 graphics library to draw walls by rendering rectangles or lines.
+
+Orientation:
+
+Use the arrow keys to control the movement and rotation of the player in the maze. Utilize SDL_Event to handle user input.
+Implement a function to handle user input using SDL_Event.
+Update the player's position and orientation based on the input received from the user.
+
+Move:
+
+Implement basic movement logic for the player. Allow the player to move forward, backward, left, and right in the maze.
+Implement a function to update the player's position based on the current orientation and input received from the user.
+
+Ouch:
+
+Add collision detection between the player and the walls. The player should not be able to move through the walls. If the player collides with a wall, stop the player's movement.
+Implement a function to check for collision between the player and the walls.
+If the player collides with a wall, stop the player's movement.
+
+Parser:
+
+Create a simple parser to read the maze data from a text file and store it in a 2D array.
+Implement a function to read the maze data from a text file.
+Store the maze data in the 2D array.
+
+Draw the Map:
+
+Draw the maze using the maze data stored in the 2D array. Use different colors for the walls and ground/ceiling to make them visually distinct.
+Use the maze data stored in the 2D array to draw the maze.
+Use different colors to distinguish between the walls and ground/ceiling.
+
+Textures:
+
+Add basic textures to the walls using SDL2's texture rendering functions.
+Implement a function to load wall textures.
+Use SDL2's texture rendering functions to render textures on the walls.
+These are the minimum features required to implement a basic maze game with SDL2.
+
+Data Modeling
+Details of data structures and relationships are defined to manage game states, player information, and maze configuration.
+
+USER STORY
+As an end user, I want to play a maze game using SDL2 so that I can have fun solving the maze and challenge myself to improve my speed and accuracy.
+
+Starting the Game:
+
+I want to see a main menu that allows me to start a new game, load a saved game, or quit the game.
+If I choose to start a new game, I want to be able to select the difficulty level of the maze, including the size of the maze and the number of obstacles.
+Playing the Game:
+
+Once the game starts, I want to see a maze on the screen, with a character that I control using the arrow keys on my keyboard.
+I want the character to move smoothly and quickly, without any lag or delay.
+I want to see a timer that counts down the time I have to complete the maze, as well as a score that reflects my progress through the maze.
+Collecting Rewards and Facing Obstacles:
+
+As I navigate through the maze, I want to be able to collect coins or other rewards that will increase my score.
+I want to encounter obstacles that will slow me down or make it harder to reach the end of the maze.
+Completing the Maze:
+
+When I reach the end of the maze, I want to see a message that congratulates me on completing the maze, and that displays my final score and the time it took me to complete the maze.
+I want the option to save my game so that I can come back and play again later.
+Audio and Visual Effects:
+
+Throughout the game, I want to hear sound effects that correspond to my actions, such as collecting coins or hitting an obstacle.
+I want to hear music that adds to the excitement and challenge of the game.
+I want the game to be visually appealing, with high-quality graphics and animations that make it fun to play and keep me engaged throughout the game.
+These user stories outline the key features and user experience elements for the 3D Maze Game MVP, ensuring a fun and engaging gameplay experience.
